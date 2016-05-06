@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/assets/css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/assets/fonts" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/assets/images" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/assets/images" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/assets/js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/assets/sass" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/components" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/components/jquery" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/modules/Index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/modules/Shared/main.controller.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/modules/Shared/shared.module.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/modules/Shared/views" charset="UTF-8" />
+  </component>
+</project>

@@ -1,45 +1,42 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Laravel</title>
+<?php
+$timestamp = time();
+?>
+<!doctype html>
+<html lang="en" ng-app="AdviceBox">
 
-        <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+    <link rel="stylesheet" href="components/bootstrap/css/bootstrap.min.css">
+</head>
 
-        <style>
-            html, body {
-                height: 100%;
-            }
+<body ng-controller="MainController">
 
-            body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+<div class="container-fluid">
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+    <div ng-include="'modules/Shared/views/common/header.html'"></div>
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+    <div ui-view id="mainView"></div>
 
-            .title {
-                font-size: 96px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
-    </body>
+    <div ng-include="'modules/Shared/views/common/footer.html'"></div>
+
+</div>
+
+<script src="components/jquery/jquery.min.js"></script>
+<script src="components/bootstrap/bootstrap.min.js"></script>
+<script src="components/angular/angular.min.js"></script>
+<script src="components/angular-ui-router/angular-ui-router.min.js"></script>
+<script src="components/angular-ui-bootstrap/ui-bootstrap-custom-0.13.1.js"></script>
+
+<script src="app.js?<?=$timestamp?>"></script>
+<script src="config/routes.js?<?=$timestamp?>"></script>
+
+<script src="modules/Shared/shared.module.js?<?=$timestamp?>"></script>
+<script src="modules/Shared/main.controller.js?<?=$timestamp?>"></script>
+
+<script src="modules/Index/index.module.js?<?=$timestamp?>"></script>
+<script src="modules/Index/index.controller.js?<?=$timestamp?>"></script>
+<script src="modules/Index/index.service.js?<?=$timestamp?>"></script>
+
+</body>
 </html>
